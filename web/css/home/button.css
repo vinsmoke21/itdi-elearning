@@ -1,0 +1,228 @@
+
+.viewall {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #FFF;
+  /* padding:  40px 0px; */
+  /* width: 100%; */
+  
+}
+
+.btn1 {
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  /* max-width: 300px; */
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+  border: 1px solid #3c8dbc;
+
+}
+
+.btn2 {
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  position: relative;
+  text-decoration: none;
+  font-family: "Dosis", sans-serif;
+  width: 100%;
+  border: 1px solid #3c8dbc;
+ text-align: center;
+}
+.btn1:hover {
+  text-decoration: none;
+}
+
+.btn2:hover {
+  text-decoration: none;
+}
+
+/*btn_background*/
+.effect01 {
+  color: #000;
+  border: 1px solid #a5b1c2;
+  box-shadow:0px 0px 0px 1px #3c8dbc inset;
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.effect01:hover {
+  border: 1px solid #666;
+  background-color: #3c8dbc;
+  box-shadow:0px 0px 0px 4px #EEE inset;
+}
+
+.effect02 {
+  color: #000;
+  /* border: 4px solid #a5b1c2; */
+  box-shadow:0px 0px 0px 1px #3c8dbc inset;
+  background-color: #fff;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.effect02:hover {
+  border: 1px solid #666;
+  background-color: #3c8dbc;
+  box-shadow:0px 0px 0px 4px #EEE inset;
+}
+/*btn_text*/
+.effect01 span {
+  transition: all 0.2s ease-out;
+  z-index: 2;
+}
+.effect01:hover span{
+  letter-spacing: 0.13em;
+  color: #fff;
+}
+
+/*btn_text*/
+.effect02 span {
+  transition: all 0.2s ease-out;
+  z-index: 2;
+}
+.effect02:hover span{
+  letter-spacing: 0.13em;
+  color: #fff;
+  font-family: "Dosis", sans-serif;
+}
+
+/*highlight*/
+.effect01:after {
+  background: #FFF;
+  border: 0px solid #3c8dbc;
+  content: "";
+  height: 155px;
+  left: -75px;
+  opacity: .8;
+  position: absolute;
+  top: -50px;
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
+  width: 50px;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);/*easeOutCirc*/
+  z-index: 1;
+}
+.effect01:hover:after {
+  background: #FFF;
+  border: 20px solid #000;
+  opacity: 0;
+  left: 120%;
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+}
+
+.effect02:after {
+  background: #FFF;
+  border: 0px solid #3c8dbc;
+  content: "";
+  height: 155px;
+  left: -75px;
+  opacity: .8;
+  position: absolute;
+  top: -50px;
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
+  width: 50px;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);/*easeOutCirc*/
+  z-index: 1;
+}
+.effect02:hover:after {
+  background: #FFF;
+  border: 20px solid #000;
+  opacity: 0;
+  left: 120%;
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+}
+/* ///////////////////////////// */
+/* btn2 */
+
+.metrology{
+  border: 1px solid silver;
+  background-color: #f8fcfe;
+  padding: 2px 50px 10px 50px;
+  border: solid 1px #3e80b3 !important;
+  border-radius: 4px;
+  box-shadow: 0px 20px 60px -30px rgb(0 0 0 / 45%);
+
+ }
+ /* #cal {width:600px; margin:0 auto;} */
+
+
+ 
+ /* Tab Content - menucool.com */
+ul.tabs
+{
+  padding: 7px 0;
+  margin:0;
+  font-size: 0;
+  list-style-type: none;
+  text-align: left; /*set to left, center, or right to align the tabs as desired*/
+  padding-left:20px; /* Offset of the first tab */
+}
+      
+ul.tabs li
+{
+  display: inline;
+  margin: 0;/*no distance between tabs*/
+  background: White;
+  margin-left: -4px;
+}
+      
+ul.tabs li a
+{
+  font: normal 12px Verdana;
+  text-decoration: none;
+  position: relative;
+  padding: 7px 22px;
+  color: #000;
+  outline:none;
+  background: #F6F6F9;
+  border:1px solid #CCC;
+  border-right:0;
+}
+
+/*Note: IE8 and earlier doesn't support li:last-child. You have to add another class to the last tab (LI) and specify its border-right as below.*/
+ul.tabs li:last-child a
+{
+  border-right:1px solid #CCC;
+}
+
+      
+ul.tabs li a:hover
+{
+  color: #000;
+  background: white;
+}
+      
+ul.tabs li.selected a, ul.tabs li.selected a:hover
+{
+  top: 0px;
+  font-weight:normal;
+  background: #FFF;
+  border-bottom: 1px solid #FFF;
+  color: #000;
+}
+      
+      
+ul.tabs li.selected a:hover
+{
+  text-decoration: none;
+}
+
+div.tabcontents
+{
+  border-top: 1px solid #CCC; padding: 30px 10px;
+}

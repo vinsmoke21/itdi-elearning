@@ -1,0 +1,365 @@
+/* CSS page for rfdetails/form.php */
+
+div.required label:after {
+  content: " *";
+  color: red;
+}
+
+.testonly {
+  color: blue;
+  font-size: 50px;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.img-banner {
+  width: 100%;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+
+/*.img_dost {
+	float: left;
+	margin: 10px;
+    margin-top: 50px;
+    width: 115px;
+    height: 115px;
+    line-height: 115px;
+    text-align: center;
+    overflow: auto;
+}
+.resize_fit_center {
+    max-width:70%;
+    max-height:70%;
+    vertical-align: middle;
+}*/
+
+/* padding: top/right/bottom/left */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: white;
+}
+
+.logo {
+  float: left;
+  width: 70px;
+  height: 70px;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 650px;
+  height: -100px;
+  padding: 20px;
+  box-sizing: border-box;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+  display: flex;
+}
+
+.box .image {
+  width: 70px;
+  flex: 0 0 70px;
+  left: 90px;
+}
+
+.box .image img {
+  max-width: 100%;
+}
+
+.dost1 {
+  margin-top: 30px;
+  font-family: Times New Roman, "Arial";
+  font-style: Times New Roman;
+  font-weight: 100;
+  font-size: 17px;
+  text-align: center;
+  color: black;
+}
+
+.img_dost {
+  float: left;
+  width: 70px;
+  height: 70px;
+}
+
+.clear1 {
+  text-align: left;
+  color: black;
+  font-size: 16px;
+  text-indent: 0px;
+}
+
+
+.info1 {
+  border: 1.5px solid black;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  margin-right: 0px;
+  margin-left: 0px;
+  background-color: white;
+  line-height: 1.6;
+  text-indent: 40px;
+
+  /*font-family: Arial, "Times New Roman"
+*/
+  font-family: Arial, "Times New Roman";
+  font-size: 12px;
+  font-style: Arial;
+  font-weight: 100;
+  text-align: left;
+  color: black;
+}
+
+
+.sig1 {
+  text-align: center;
+}
+
+.sig2 {
+  text-align: center;
+}
+
+.job_assigned {
+  line-height: normal;
+  font-size: 10px;
+}
+
+.signature {
+  width: 710px;
+  height: 80px;
+  margin-top: 10px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.remarks {
+  text-align: right;
+}
+
+
+
+
+.notes {
+  margin-top: -100px;
+  margin-left: -5px;
+  /*  margin-right: -10px;*/
+  line-height: normal;
+  text-indent: 80px;
+}
+
+.label2 {
+  padding-right: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  white-space: nowrap;
+  border-style: none;
+}
+
+.wrap {
+  white-space: normal;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+
+.line0 {
+  border-bottom: 1px solid red;
+  padding: 0 0 4px;
+}
+
+.move-me {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 55px;
+  right: 0px;
+  left: 85px;
+}
+
+.control {
+  padding-top: -60px;
+}
+
+.control-top {
+  padding-top: 10px;
+}
+
+.underlined {
+  border-bottom: 1px solid black;
+}

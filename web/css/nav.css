@@ -1,0 +1,38 @@
+.navbar-main, .navbar-brand, .navbar-nav > li > a {
+	background-color:#3c8dbc !important;
+	/* background-color: transparent; */
+	color:white !important;
+	font-size: 17px;
+}
+.nav li > form > button.lg-black {
+	color: white !important;
+}
+.nav li > form > button.logout {
+	background-color: transparent !important;
+	color:white;
+}
+.navbar-nav > li > a:hover, .nav li > form > button.logout:hover, .navbar-nav > li > span:hover {
+	color: #1be0ee !important;
+	background: black;
+	/*border: 1px solid #fb6c6c;*/
+	 /*position: absolute;*/
+}
+
+.navbar-nav > li.active > a {
+	font-weight: bold;
+}
+.navbar-nav > li > span {
+	padding: 6px 7px 0px 0px;
+	width: auto;
+}
+.icon-bar {
+	background-color: white !important;
+}
+
+.navbar-main1, .navbar-brand1, .navbar-nav1 > li > a {
+	background-color:transparent !important;
+	/* background-color: transparent; */
+	color:#3c8dbc !important;
+}
+
+
